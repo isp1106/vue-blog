@@ -3,6 +3,7 @@
 ## Project setup
 ```
 npm install
+npm i bootstrap@5.2.0-beta1
 npm intall vue-router@4
 ```
 
