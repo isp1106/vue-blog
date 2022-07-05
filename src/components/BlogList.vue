@@ -1,8 +1,7 @@
 <template>
   <div>
     <div>
-      <router-link to="./detail">11</router-link>
-      <h2>{{블로그글[0].title}}</h2>
+      <h2 @click="$router.push('/detail/0')">{{블로그글[0].title}}</h2>
       <p>{{블로그글[0].date}}</p>
     </div>
     <div>

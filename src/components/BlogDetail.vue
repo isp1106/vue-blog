@@ -3,6 +3,7 @@
     <h3>상세페이지</h3>
     <h4>{{블로그글[$route.params.id].title}}</h4>
     <p>{{블로그글[$route.params.id].content}}</p>
+    <router-view></router-view>
   </div>
 </template>
 
